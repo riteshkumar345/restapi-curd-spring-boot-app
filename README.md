@@ -1,12 +1,13 @@
 # usage
 
 1. `git clone <URL>`
-2. 'Run as Spring Boot Apps
+2. 'Run as Spring Boot Apps to build the app
 
 # Testing API from Swagger UI
 1. http://localhost:8080/swagger-ui/index.html
 2. http://localhost:8080/v3/api-docs
-**NOTE** If we are working with Java 17 and Spring Boot 3 and we have to expose all the services of our Rest API then we don't have to any config class or other stuff in Spring
+# NOTE
+If we are working with Java 17 and Spring Boot 3 and we have to expose all the services of our Rest API then we don't have to any config class or other stuff in Spring
 Simply add this below dependency in your pom and that's it.
 
     <dependency>
